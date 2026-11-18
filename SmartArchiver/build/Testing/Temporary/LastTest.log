@@ -1,0 +1,65 @@
+Start testing: Nov 10 12:54 Фінляндія (зима)
+----------------------------------------------------------
+1/1 Testing: sarc_tests
+1/1 Test: sarc_tests
+Command: "C:/Users/Home/Documents/SmartArchiver/build/sarc_tests.exe"
+Directory: C:/Users/Home/Documents/SmartArchiver/build
+"sarc_tests" start time: Nov 10 12:54 Фінляндія (зима)
+Output:
+----------------------------------------------------------
+[ RUN  ] crypto_known_answers
+[  OK  ] crypto_known_answers  (0.0957125 s)
+[ RUN  ] case07_08_codec_edge_cases
+[  OK  ] case07_08_codec_edge_cases  (0.0351631 s)
+[ RUN  ] case09_greedy_and_lazy_both_work
+    greedy=31115 lazy=30547 raw=200000
+[  OK  ] case09_greedy_and_lazy_both_work  (0.12168 s)
+[ RUN  ] case01_single_text_file
+[  OK  ] case01_single_text_file  (0.333664 s)
+[ RUN  ] case02_empty_and_one_byte_files
+[  OK  ] case02_empty_and_one_byte_files  (0.195067 s)
+[ RUN  ] case03_all_seven_groups_roundtrip
+[  OK  ] case03_all_seven_groups_roundtrip  (0.351978 s)
+[ RUN  ] case04_same_bytes_compress_many_times
+    1000000 identical bytes -> 2278 bytes
+[  OK  ] case04_same_bytes_compress_many_times  (0.109031 s)
+[ RUN  ] case05_06_noise_and_precompressed_are_stored
+    overhead on incompressible data: 239 bytes
+[  OK  ] case05_06_noise_and_precompressed_are_stored  (0.20859 s)
+[ RUN  ] case10_knapsack_dp_never_worse_than_greedy
+[  OK  ] case10_knapsack_dp_never_worse_than_greedy  (0.0132796 s)
+[ RUN  ] case11_tampering_wrong_password_truncation
+    113 single-byte modifications, all rejected
+[  OK  ] case11_tampering_wrong_password_truncation  (9.91692 s)
+[ RUN  ] case12_volumes_order_missing_duplicate_large_file
+    knapsack: 7 volumes, 163623 bytes
+    greedy  : 7 volumes, 163623 bytes
+[  OK  ] case12_volumes_order_missing_duplicate_large_file  (0.71153 s)
+[ RUN  ] many_small_files_use_candidate_window
+[  OK  ] many_small_files_use_candidate_window  (0.283916 s)
+[ RUN  ] volume_config_errors_are_controlled
+[  OK  ] volume_config_errors_are_controlled  (0.0030286 s)
+[ RUN  ] input_validation_c2
+[  OK  ] input_validation_c2  (0.0020565 s)
+[ RUN  ] zero_files_archive
+[  OK  ] zero_files_archive  (0.305388 s)
+[ RUN  ] c5_authenticated_but_malicious_payloads
+    CHECK FAILED: list_dir(t.path / "out").empty()  (line 631)
+    CHECK FAILED: list_dir(t.path / "out").empty()  (line 631)
+    CHECK FAILED: list_dir(t.path / "out").empty()  (line 631)
+[ FAIL ] c5_authenticated_but_malicious_payloads  (4.54612 s)
+[ RUN  ] atomic_extraction_never_overwrites
+[  OK  ] atomic_extraction_never_overwrites  (0.196231 s)
+[ RUN  ] classifier_and_features
+[  OK  ] classifier_and_features  (0.0021186 s)
+
+1660 checks, 3 failed, 1 test(s) failed
+<end of output>
+Test time =  17.47 sec
+----------------------------------------------------------
+Test Failed.
+"sarc_tests" end time: Nov 10 12:54 Фінляндія (зима)
+"sarc_tests" time elapsed: 00:00:17
+----------------------------------------------------------
+
+End testing: Nov 10 12:54 Фінляндія (зима)

@@ -1,0 +1,6 @@
+C:/Users/Home/Documents/SmartArchiver/build/CMakeFiles/sarc_core.dir
+C:/Users/Home/Documents/SmartArchiver/build/CMakeFiles/sarc.dir
+C:/Users/Home/Documents/SmartArchiver/build/CMakeFiles/sarc_tests.dir
+C:/Users/Home/Documents/SmartArchiver/build/CMakeFiles/test.dir
+C:/Users/Home/Documents/SmartArchiver/build/CMakeFiles/edit_cache.dir
+C:/Users/Home/Documents/SmartArchiver/build/CMakeFiles/rebuild_cache.dir
